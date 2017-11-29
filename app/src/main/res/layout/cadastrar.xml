@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_cor_cd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cor"/>
+
+    <TextView
+        android:id="@+id/tv_placa_cd"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="placa" />
+
+    <Spinner
+        android:id="@+id/sp_modelo_cd"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+/>
+
+    <Button
+        android:id="@+id/bt_salvar_cd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cadastrar"
+        android:text="Salvar" />
+
+    <RadioGroup
+        android:id="@+id/rg_cd"
+        android:layout_width="match_parent"
+        android:layout_height="122dp">
+
+        <RadioButton
+            android:id="@+id/rb_seminovo_cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="semi-novo" />
+
+        <RadioButton
+            android:id="@+id/rb_novo_cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="novo" />
+    </RadioGroup>
+
+</LinearLayout>
